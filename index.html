@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-background"></div>
+    <nav>
+        <div class="nav-wrapper deep-purple darken-3">
+            <a href="#" class="brand-logo center">Quiz Game</a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="#" id="settings-btn"><i class="material-icons">settings</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="start-screen" class="center-align animate__animated animate__fadeIn">
+            <h2 class="game-title">Bem-vindo ao Quiz Game!</h2>
+            <button id="start-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Iniciar Jogo</button>
+            <button id="edit-questions-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Editar Questões</button>
+        </div>
+        
+        <div id="edit-questions-screen" class="center-align animate__animated animate__fadeIn" style="display: none;">
+			<h3 class="screen-title">Edição de Questões</h3>
+			<div id="question-inputs"></div>
+			<button id="add-question-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Adicionar Questão</button>
+			<button id="save-questions-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Salvar Questões em JSON</button>
+		</div>
+
+        <div id="players-screen" class="center-align animate__animated animate__fadeIn" style="display: none;">
+            <h3 class="screen-title">Adicionar Jogadores</h3>
+            <div class="input-field">
+                <input type="text" id="player-name" placeholder="Nome do jogador">
+                <button id="add-player-btn" class="btn waves-effect waves-light deep-purple darken-3">Adicionar</button>
+            </div>
+            <ul id="player-list" class="collection"></ul>
+            <button id="start-quiz-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Começar Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="animate__animated animate__fadeIn" style="display: none;">
+			<div class="center-align">
+				<h3 id="question" class="question-text"></h3>
+				<img id="question-image" src="" alt="" style="display: none; width: 200px; height: 200px;">
+			</div>
+			<div id="answers" class="row"></div>
+			<div class="progress">
+				<div id="timer" class="determinate" style="width: 100%"></div>
+			</div>
+		</div>
+
+
+        <div id="result-screen" class="center-align animate__animated animate__fadeIn" style="display: none;">
+            <h2 class="screen-title">Resultado Final</h2>
+            <table class="striped highlight">
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Jogador</th>
+                        <th>Pontuação</th>
+                    </tr>
+                </thead>
+                <tbody id="ranking"></tbody>
+            </table>
+            <button id="play-again-btn" class="btn-large waves-effect waves-light deep-purple darken-3 pulse">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <h4>Configurações</h4>
+            <div class="file-field input-field">
+                <div class="btn deep-purple darken-3">
+                    <span>Escolher Arquivo JSON</span>
+                    <input type="file" id="json-file" accept=".json">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Nenhum arquivo selecionado">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+            <a href="#!" id="save-settings" class="waves-effect waves-green btn deep-purple darken-3">Salvar</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="main.js"></script>
+    <script src="edit-questions.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "quiz": [
+    {
+      "serie": "6° Ano",
+      "perguntas": [
+        {
+          "pergunta": "O que é uma engrenagem?",
+          "opcoes": [
+            "Um tipo de motor",
+            "Uma roda dentada que transmite movimento",
+            "Um tipo de combustível",
+            "Um robô simples"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "https://serrametal.com.br/wp-content/uploads/2023/07/20230725170243_fpdl.in_engrenagens-de-ouro-prateadas-mecanicas-fundo-generativo-ai_845977-4451_medium.jpg",
+          "tempo": 60
+        },
+        {
+          "pergunta": "Qual destas é uma fonte de energia renovável?",
+          "opcoes": [
+            "Petróleo",
+            "Carvão",
+            "Energia solar",
+            "Gás natural"
+          ],
+          "resposta_correta": 2,
+          "url_imagem": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/830364961522bda6e1569d3958d59ad0.jpg",
+          "tempo": 10
+        },
+        {
+          "pergunta": "O que é um robô?",
+          "opcoes": [
+            "Um animal mecânico",
+            "Uma máquina programável que realiza tarefas",
+            "Um tipo de computador",
+            "Um brinquedo eletrônico"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 10
+        }
+      ]
+    }
+  ]
+}

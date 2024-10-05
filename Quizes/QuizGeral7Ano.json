@@ -1,0 +1,347 @@
+{
+  "quiz": [
+    {
+      "serie": "7° Ano",
+      "perguntas": [
+        {
+          "pergunta": "Qual é a principal fonte de energia utilizada no Brasil?",
+          "opcoes": [
+            "Carvão",
+            "Energia solar",
+            "Hidrelétricas",
+            "Gás natural"
+          ],
+          "resposta_correta": 2,
+          "url_imagem": "https://www.gazetadopovo.com.br/app/uploads/2023/07/energia_hidreletrica.jpg",
+          "tempo": 30
+        },
+        {
+          "pergunta": "Qual destas opções é um robô autônomo?",
+          "opcoes": [
+            "Um robô que precisa de controle remoto",
+            "Um robô que opera por conta própria",
+            "Um robô que faz apenas uma tarefa",
+            "Um robô que só funciona com energia solar"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é o propósito de um sensor em um robô?",
+          "opcoes": [
+            "Aumentar a velocidade",
+            "Executar tarefas",
+            "Detectar mudanças no ambiente",
+            "Guardar energia"
+          ],
+          "resposta_correta": 2,
+          "url_imagem": "",
+          "tempo": 25
+        },
+        {
+          "pergunta": "O que é programação?",
+          "opcoes": [
+            "A criação de robôs",
+            "Um conjunto de instruções para computadores",
+            "Um tipo de energia",
+            "Um método de raciocínio lógico"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual das opções abaixo é um tipo de energia não renovável?",
+          "opcoes": [
+            "Energia eólica",
+            "Energia geotérmica",
+            "Petróleo",
+            "Energia solar"
+          ],
+          "resposta_correta": 2,
+          "url_imagem": "",
+          "tempo": 10
+        },
+        {
+          "pergunta": "Qual é uma função básica de um motor elétrico?",
+          "opcoes": [
+            "Gerar luz",
+            "Converter energia elétrica em energia mecânica",
+            "Armazenar energia",
+            "Transmissão de dados"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é a unidade de medida de energia?",
+          "opcoes": [
+            "Joule",
+            "Newton",
+            "Ampere",
+            "Volt"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 10
+        },
+        {
+          "pergunta": "O que faz um atuador em um robô?",
+          "opcoes": [
+            "Controla os sensores",
+            "Executa movimentos",
+            "Armazena informações",
+            "Fornece energia"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual é o principal objetivo de uma fonte de energia?",
+          "opcoes": [
+            "Produzir robôs",
+            "Fornecer energia para realizar trabalho",
+            "Armazenar dados",
+            "Criar algoritmos"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é a lógica por trás de um algoritmo?",
+          "opcoes": [
+            "Organização de dados",
+            "Sequência de passos para resolver um problema",
+            "Armazenamento de energia",
+            "Contagem de resultados"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 25
+        },
+        {
+          "pergunta": "O que caracteriza uma fonte de energia renovável?",
+          "opcoes": [
+            "Sua capacidade de se esgotar",
+            "Sua capacidade de se regenerar naturalmente",
+            "Sua dependência de combustíveis fósseis",
+            "Sua eficiência energética"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual é um exemplo de raciocínio lógico?",
+          "opcoes": [
+            "Fazer um teste de matemática",
+            "Resolver um quebra-cabeça",
+            "Criar um robô",
+            "Usar uma calculadora"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é a função da energia solar?",
+          "opcoes": [
+            "Produzir eletricidade a partir da luz do sol",
+            "Aumentar a temperatura do ambiente",
+            "Criar combustíveis fósseis",
+            "Produzir água potável"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "O que é um robô programável?",
+          "opcoes": [
+            "Um robô que pode ser controlado apenas manualmente",
+            "Um robô que pode executar comandos pré-definidos",
+            "Um robô que não pode ser modificado",
+            "Um robô que faz tudo automaticamente"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual é a diferença entre dados e informações?",
+          "opcoes": [
+            "Dados são números; informações são palavras",
+            "Dados são não organizados; informações são organizadas",
+            "Dados são mais importantes que informações",
+            "Dados são sempre verdadeiros"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é a função de um controlador em um robô?",
+          "opcoes": [
+            "Processar dados",
+            "Controlar o movimento",
+            "Armazenar energia",
+            "Criar algoritmos"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "O que é a energia eólica?",
+          "opcoes": [
+            "Energia gerada pela água",
+            "Energia gerada pelo vento",
+            "Energia gerada pelo sol",
+            "Energia gerada pela biomassa"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual é a importância da lógica na programação?",
+          "opcoes": [
+            "Não tem importância",
+            "Ajuda a organizar o pensamento e resolver problemas",
+            "É usada apenas em matemática",
+            "Substitui a necessidade de programação"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual destas opções não é uma forma de energia?",
+          "opcoes": [
+            "Térmica",
+            "Elétrica",
+            "Química",
+            "Nuclear",
+            "Dados"
+          ],
+          "resposta_correta": 4,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "O que é um código-fonte?",
+          "opcoes": [
+            "Um tipo de robô",
+            "O conjunto de instruções que um programa segue",
+            "Uma linguagem de programação",
+            "Um tipo de energia"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "Qual é a função de uma bateria em um robô?",
+          "opcoes": [
+            "Fornecer energia",
+            "Armazenar dados",
+            "Controlar movimentos",
+            "Transmitir sinais"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual das opções abaixo representa uma lógica de programação?",
+          "opcoes": [
+            "Se X é maior que Y, então faça Z",
+            "Aumentar a energia",
+            "Construir um robô",
+            "Medir temperatura"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "O que significa a sigla 'Robô'?",
+          "opcoes": [
+            "Relação entre objetos binários",
+            "Robótica baseada em operações",
+            "Máquina que imita ações humanas",
+            "Raciocínio binário otimizado"
+          ],
+          "resposta_correta": 2,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "O que é a energia química?",
+          "opcoes": [
+            "Energia armazenada nas ligações químicas",
+            "Energia que se transforma em elétrica",
+            "Energia produzida pelo calor",
+            "Energia que se perde no meio ambiente"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 15
+        },
+        {
+          "pergunta": "Qual é o objetivo principal da robótica?",
+          "opcoes": [
+            "Criar novos tipos de combustível",
+            "Construir máquinas que realizam tarefas",
+            "Reduzir o uso de energia",
+            "Aumentar a velocidade de produção"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "O que é um algoritmo?",
+          "opcoes": [
+            "Um robô que realiza tarefas",
+            "Uma sequência de passos para resolver um problema",
+            "Um tipo de energia",
+            "Um motor de busca"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 20
+        },
+        {
+          "pergunta": "O que caracteriza um sistema automatizado?",
+          "opcoes": [
+            "Requer intervenção humana constante",
+            "Opera de forma independente com pouca ou nenhuma intervenção humana",
+            "É totalmente mecânico",
+            "Necessita de energia não renovável"
+          ],
+          "resposta_correta": 1,
+          "url_imagem": "",
+          "tempo": 25
+        },
+        {
+          "pergunta": "Qual é a definição de energia térmica?",
+          "opcoes": [
+            "Energia produzida pelo calor",
+            "Energia produzida por reações químicas",
+            "Energia armazenada em um corpo",
+            "Energia elétrica em movimento"
+          ],
+          "resposta_correta": 0,
+          "url_imagem": "",
+          "tempo": 15
+        }
+      ]
+    }
+  ]
+}
+
